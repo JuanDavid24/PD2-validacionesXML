@@ -1,5 +1,5 @@
 import pytest
-import valDTD as dtdv
+from DTD import valDTD as dtdv
 from lxml.etree import XMLSyntaxError
 
 xml1 = "quilmes.xml"
